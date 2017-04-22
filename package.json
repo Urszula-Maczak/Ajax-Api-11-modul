@@ -1,0 +1,26 @@
+{
+  "name": "ajax-api-11-modul",
+  "version": "1.0.0",
+  "description": "ajax api task",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urszula-Maczak/Ajax-Api-11-modul.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Urszula Mączak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Urszula-Maczak/Ajax-Api-11-modul/issues"
+  },
+  "homepage": "https://github.com/Urszula-Maczak/Ajax-Api-11-modul#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0"
+  }
+}
