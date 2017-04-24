@@ -30,53 +30,72 @@ h1 {
 	-webkit-text-fill-color: transparent;
 }
 .box {
-	color: #fff;
-	font-size: 50px;
+	color: #34495e;
 	text-align: center;
-	padding: 50px 0;
+	padding: 20px 0;
 }
 .quote {
 	font-style: italic;
+	font-size: 34px;
+
+}
+.quote:hover {
+	transform: scale(1.11);
+	font-weight: bold;
+	font-size: 38px;
+}
+.author {
+	font-size: 28px;
 }
 .random-quote {
 	text-align: center;
-	margin: 50px;
+	margin: 10px;
 }
 button {
 	padding: 30px;
 	margin: 20px auto;
 	border-radius: 15px;
 	outline: none;
+	width: 300px;
+}
+button:hover {
+	transform: scale(1.11);
+	background-color: #34495e;	
+	border-color: #e74c3c;
+	color: #fff;
 }
 .trigger {
-	width: 180px;
-	height: 70px;
+	height: 50px;
 	text-align: center;
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: bold;
 	color: #e74c3c;
-	padding: 10px;
+	padding: 5px;
 	background-color: #fff;
 }
 .social-media {
-	width: 140px;
-	height: 40px;
+	padding: 0;	
+	height: 50px;
 	font-weight: bold;
 	text-align: center;
 	background-color: #fff;
 	position: relative;
 }
 .tweet {
-	font-size: 30px;
+	font-size: 25px;
 	color: #e74c3c;
 	text-decoration: none;
 	padding: 5px;
 	position: absolute;
-	left: 10%;
-	top: 5%;
+	left: 32%;
+	top: 1%;
+}
+.tweet:hover .social-media {
+	transform: scale(1.9);
+	color: #fff;
+}
+.fa {
+	font-size: 28px;
 }
 
-.fa {
-	font-size: 30px;
-}
 
